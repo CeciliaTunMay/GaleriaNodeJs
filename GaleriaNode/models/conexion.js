@@ -3,10 +3,10 @@ port = process.env.PORT || 4205;
  
 if (port === 4205) {
     var connection = mysql.createConnection({
-        host: 'localhost',
+        host: 'den1.mysql1.gear.host',
         port: 3306,
-        user: 'root',
-        password: '',
+        user: 'galeria',
+        password: 'M|0e!~74JX3C',
         database: 'galeria',
         insecureAuth: true
     });
